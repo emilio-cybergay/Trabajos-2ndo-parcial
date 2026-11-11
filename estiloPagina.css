@@ -1,0 +1,44 @@
+/* Fondo de la página con un toque muy sutil de violeta */
+body {
+    background-color: #f6f4fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Título del menú */
+.menu-title {
+    color: #6b4b8a;
+    font-weight: 700;
+}
+
+/* Estilo principal de los botones (ahora más grandes y gruesos) */
+.btn-custom {
+    background-color: #9d74ce; 
+    color: #ffffff;
+    padding: 20px 15px; /* Aumenta el espacio vertical para hacerlos más anchos y altos */
+    font-size: 1.2rem; /* Letra un poco más grande */
+    font-weight: 600;
+    border-radius: 15px; /* Bordes un poco más cuadrados en lugar de píldora para dar sensación de bloque */
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 6px 15px rgba(157, 116, 206, 0.3);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Asegura que todos los botones en la misma fila tengan la misma altura */
+}
+
+/* Efecto Hover (al pasar el cursor) */
+.btn-custom:hover, 
+.btn-custom:focus {
+    background-color: #8b5cc1; 
+    color: #ffffff;
+    box-shadow: 0 10px 25px rgba(139, 92, 193, 0.4);
+    transform: translateY(-5px);
+}
+
+/* Efecto Active (al hacer clic) */
+.btn-custom:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 10px rgba(139, 92, 193, 0.4);
+}

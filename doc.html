@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Estilo.css">
+    <title>Ejercicio JavaScript</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <a href="index.html" class="btn btn-return">Regresar al Menu</a>
+    </div>
+  </nav>
+
+    <h1>Aprendiendo JavaScript</h1>
+
+    <p id="prueba">Texto original de prueba</p>
+
+    <p id="ejemplo">Texto original de ejemplo</p>
+
+    <script>
+        let elemento = document.getElementById("prueba");
+
+        elemento.innerHTML = "Aprendiendo métodos de javascript";
+
+        var prueba = document.getElementById("ejemplo");
+
+        prueba.innerHTML = "Soy floja ya que no hago tareas";
+    </script>
+
+</body>
+</html>

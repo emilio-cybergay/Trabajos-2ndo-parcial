@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Estilo.css">
+  <title>Ejemplo DOM</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <a href="index.html" class="btn btn-return">Regresar al Menu</a>
+    </div>
+  </nav>
+
+  <h1 id="titulo">Hola mundo</h1>
+  <button onclick="cambiarTexto()">Cambiar</button>
+
+  <script>
+    function cambiarTexto() {
+      document.getElementById("titulo").textContent = "¡Texto cambiado con el DOM!";
+    }
+  </script>
+
+</body>
+</html>

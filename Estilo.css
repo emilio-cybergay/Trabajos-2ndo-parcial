@@ -1,0 +1,44 @@
+/* Fondo de la página: Lavanda pastel muy suave */
+body {
+    background-color: #f0eaf5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Barra de navegación: Lila pastel */
+.navbar-custom {
+    background-color: #e2d4ed;
+    padding: 15px 0;
+    box-shadow: 0 4px 15px rgba(139, 92, 193, 0.15);
+}
+
+/* Estilo del botón de regreso: Morado más profundo */
+.btn-return {
+    background-color: #7b52ab; 
+    color: #ffffff;
+    padding: 10px 24px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(123, 82, 171, 0.4);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Efecto Hover: Al pasar el cursor */
+.btn-return:hover, 
+.btn-return:focus {
+    background-color: #65418f;
+    color: #ffffff;
+    box-shadow: 0 6px 18px rgba(101, 65, 143, 0.5);
+    transform: translateX(-5px); /* Se mueve un poco a la izquierda para indicar regreso */
+}
+
+/* Efecto Active: Al hacer clic */
+.btn-return:active {
+    transform: translateX(0);
+    box-shadow: 0 2px 8px rgba(101, 65, 143, 0.4);
+}
